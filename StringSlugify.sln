@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{261F81A2-CF91-4D9A-B6BB-66406C3EA29F}") = "StringSlugify", "src\StringSlugify\StringSlugify.csproj", "{FC220B92-7C7D-4ADB-A7F6-D966B2924D44}"
+EndProject
+Project("{261F81A2-CF91-4D9A-B6BB-66406C3EA29F}") = "StringSlugify.Tests", "tests\StringSlugify.Tests\StringSlugify.Tests.csproj", "{21CE2709-581F-4523-BA64-AAB9021EF136}"
+EndProject
+Global
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        Debug|Any CPU = Debug|Any CPU
+        Release|Any CPU = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {FC220B92-7C7D-4ADB-A7F6-D966B2924D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {FC220B92-7C7D-4ADB-A7F6-D966B2924D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {FC220B92-7C7D-4ADB-A7F6-D966B2924D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {FC220B92-7C7D-4ADB-A7F6-D966B2924D44}.Release|Any CPU.Build.0 = Release|Any CPU
+        {21CE2709-581F-4523-BA64-AAB9021EF136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {21CE2709-581F-4523-BA64-AAB9021EF136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {21CE2709-581F-4523-BA64-AAB9021EF136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {21CE2709-581F-4523-BA64-AAB9021EF136}.Release|Any CPU.Build.0 = Release|Any CPU
+    EndGlobalSection
+EndGlobal

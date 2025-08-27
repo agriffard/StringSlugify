@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net8.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>StringSlugify</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Antoine Griffard</Authors>
+    <Company></Company>
+    <Description>Lightweight string slugifier for .NET. Converts text into URL-friendly slugs (e.g. "Café crème" -&gt; "cafe-creme").</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/agriffard/StringSlugify</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/agriffard/StringSlugify</RepositoryUrl>
+    <PackageTags>slug slugify string url text</PackageTags>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="" />
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="" />
+  </ItemGroup>
+</Project>
